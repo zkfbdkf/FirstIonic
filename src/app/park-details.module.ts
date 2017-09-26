@@ -4,16 +4,16 @@ import { ParkDetailsPage } from './park-details';
 
 
 @NgModule({
-declarations: [
-ParkDetailsPage,
-],
-imports: [
-IonicPageModule.forChild(ParkDetailsPage),
-],
-
-exports: [
-    ParkDetailsPage
-]
+    declarations: [
+        ParkDetailsPage,
+    ],
+    imports: [
+        IonicPageModule.forChild(ParkDetailsPage),
+    ],
+    
+    exports: [
+        ParkDetailsPage
+    ]
 
 })
-export class ParkDetailsPageModule {}
+export class ParkDetailsPageModule { }
